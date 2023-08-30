@@ -1,0 +1,26 @@
+1. Git is a distributed tversion control system that allows developers to track changes made to their code over 
+time.In simpler explanation, its like a team of writers writing a story and everyone has the original manuscript they are writing.So,whenever someone makes changes to their copy, Git helps keep track of what changes were made, like adding or deleting sentences.
+ 
+Git solves the problem of organized version control and team cooperation in software development. It introduces a structured process for tracking errors, supporting simultaneous development through branching, and preserving a comprehensive history of changes. This promotes faster, more efficient collaboration, empowers developers to work in parallel, and establishes a reliable foundation for successful software projects.
+
+2. Git is the version control system that manages and monitors code changes in real time, while GitHub is a platform, a website built around Git that provides hosting, collaboration tools, and additional features for teams and developers working on software projects.
+
+3. The basic workflow for using Git for version control stars by firstly creating or initializing a repository which involves opening a new folder or file to store the ongoing project. Then we open a command-line terminal in that folder and run the command 'git init'. This initializes a new repository in that directory.
+The next step is to add the files to the repository by running the command 'git add' and then the name of the file we are adding. As you begin to code, you add more information to the existing code, you make changes to the code.  
+
+This is where the command 'git commit' -m; along with whatever you are commiting, in this case the file.
+Another important command is the git pull origin  .This command is used to download changes from a repository main branch to our local repository. The opposite of this command is git push origin which send or upload changes made from our local repository to the  main one.
+
+4. A  Git repository is a group of files,codes with their history stored in a directory.
+It stores and manages versions of files by snapshots or in simpler terms screenshot of each changes that is made and saving them immediately.
+
+5. A commit contains snapshots of the project as it progresses at every point in time.It contains the date the changes were made, the time, identity and information of the person who made the changes. It also contains the purpose of the changes or the reason the change was made.
+
+6. Branching is an important part of Git that brings structure to the working system. With branching, a team can work on different parts of a project without getting into each other's work.
+
+Branching can be very useful in collaborative development because it can help a team focus better on their 
+work without worries, while everyone advances in their different aspects of the project. 
+Branching provides a way to develop features, fix issues, or experiment while still keeping the main project stable.
+Also with the option of pull request, you can easily review the working codes if needed.
+If mistakes happen you can easily delete it without affecting others work and also make changes vice versa.
+All in all, branching helps with the smooth working of a team to produce a working project.
